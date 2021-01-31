@@ -1,8 +1,4 @@
-[![CircleCI](https://circleci.com/gh/sunildivyam/react-business.svg?style=svg&circle-token=dbd3768989213f5e3b96fc33c5f289e18d2fd2d5)](https://app.circleci.com/pipelines/github/sunildivyam/react-business)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![semantic-release](https://badge.fury.io/js/react-business.svg)](https://www.npmjs.com/package/react-business)
-
-React Business
+#React Business
 --------------
 React Business UI Components Library.
 
