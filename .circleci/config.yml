@@ -1,0 +1,20 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1.6
+jobs:
+  test-build-and-release:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: yarn install            #  Install dependencies
+            - run: yarn lint               #  Test Code Style
+            - run: yarn test               #  Run unit tests
+            - run: yarn build              #  Production build
+            - run: npm publish             #  Release to npm
+workflows:
+  test-build-and-release:
+    jobs:
+      - test-build-and-release
