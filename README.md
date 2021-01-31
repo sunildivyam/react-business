@@ -57,4 +57,5 @@ To create a production build of the static library
 $ yarn styleguide:build
 ```
 
-### Preview
+### Deployment
+Using CircleCI
